@@ -1,0 +1,117 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background: #003956;;
+    font-size: 14px;
+    line-height: 22px;
+}
+
+.bold {
+    font-weight: 700;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.semi-bold {
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.resume {
+    width: 800px;
+    height: auto;
+    display: flex;
+    margin: 50px auto;
+}
+
+.regular {
+    margin-top: 5px
+}
+
+.resume .left {
+    width: 280px;
+    background: #05cee5;
+}
+
+.resume .left .profile {
+    width: 100%;
+    height: 280px;
+}
+
+.resume .left .profile img {
+    width: 100%;
+    height: 100%;
+}
+
+.resume .left .content {
+    padding: 0 25px;
+}
+
+.resume .title {
+    margin-bottom: 20px;
+}
+
+.resume .item {
+    padding: 25px 0;
+    border-bottom: 2px solid;
+}
+
+.resume .left .item:last-child {
+    border-bottom: 0px;
+}
+
+.resume .left ul li {
+    display: flex;
+    align-items: center;
+}
+
+.resume .left ul li:last-child {
+    margin-bottom: 0;
+}
+
+.resume .left ul li .icon {
+    width: 35px;
+    height: 35px;
+    background: #05cee5;
+    color: black;
+    border-radius: 50%;
+    margin-right: 15px;
+    font-size: 16px;
+    position: relative;
+}
+
+.resume .icon i {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.resume .right {
+    width: 520px;
+    background: #7cfff9;
+    padding: 25px;
+}
+
+.resume .right .work ul {
+    padding-left: 40px;
+    overflow: hidden;
+}
+
+.resume .right .education ul {
+    padding-left: 40px;
+    overflow: hidden;
+}
+
+.resume .right .work ul li {
+    position: relative;
+}
+
+.resume .right .work ul li .date {
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
